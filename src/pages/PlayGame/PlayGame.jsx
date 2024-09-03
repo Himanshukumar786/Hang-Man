@@ -25,8 +25,11 @@ function PlayGame() {
 
     return (
         <div>
-            <div className="flex justify-center items-center">Welcome | Nav Bar</div>
-            <h1>Play Game</h1>
+            <div 
+            className="flex justify-center items-center">
+                Welcome!!! | NAv BAR
+            </div>
+            <h1> Play Game</h1>
             
             <MaskedText text={wordSelected} usedLetters={usedLetters} />
             <hr/>
