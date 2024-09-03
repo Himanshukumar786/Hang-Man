@@ -6,7 +6,7 @@ function StartGame() {
     const navigate = useNavigate();
 
     function handleSubmit(value) {
-        navigate('/play');
+        navigate('/play', { state: {wordSelected: value}});
     }
 
     return (

@@ -6,7 +6,6 @@ import { getAllCharacters } from "./MaskedTextUtility";
  * @param {usedLetters} The array of letters that have been guessed so far
  * @returns 
  */
-
 function MaskedText({ text, usedLetters }) {
     const letters = getAllCharacters(text, usedLetters).split('');
     return (
@@ -20,6 +19,9 @@ function MaskedText({ text, usedLetters }) {
     )
 }
 
+
+
 export default MaskedText;
 
 // H U M B L E (B and E are Guessed) -> _ _ _ B _ E
+
